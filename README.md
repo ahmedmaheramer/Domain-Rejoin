@@ -5,7 +5,7 @@
 DESCRIPTION:
 This script can be used to:
 1. Join Computer To The Domain (On-Site & WAH).
-2. Change Domain To Concentrix.com.
+2. Change Domain.
 3. Fix Trust Relationship (if reset computer password didn't work).
 
 HOW TO RUN:
