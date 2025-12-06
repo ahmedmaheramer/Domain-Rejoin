@@ -6,7 +6,7 @@
 # DESCRIPTION:
 # This script can be used to:
 # 1. Join Computer To The Domain (On-Site & WAH).
-# 2. Change Domain To Concentrix.com.
+# 2. Change Domain.
 # 3. Fix Trust Relationship (if reset computer password didn't work).
 # ===================================================================
 
@@ -157,5 +157,6 @@ try {
 } catch {
     Write-Log "Failed to apply registry settings: $_" "ERROR"
 }
+
 
 Write-Log "Script Complete. A RESTART IS REQUIRED." "SUCCESS"
